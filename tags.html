@@ -12,7 +12,11 @@
       <a href="tags.html">HTML Tags</a>
     </div>
 
-    <h1>Important HTML Tags</h1>
+    <header style="margin: 0 0 40px 0;">
+      <h1>Important HTML Tags</h1>
+    </header>
+
+    <h1 style="display: block; margin: 50px 0">This is h1, but block element</h1>
 
     <a href="https://www.flickr.com/photos/jdhancock/3814523970">
     <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm trooper">
@@ -35,9 +39,9 @@
 
     <table>
       <tr>
-        <th>_______Tag_______</th>
-        <th>_______Name_______</th>
-        <th>_______Purpose_______</th>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
       </tr>
       <tr>
         <td align="center"><code>h1</code>&ndash;<code>h6</code></td>
@@ -69,18 +73,33 @@
         <td align="center">table data</td>
         <td align="center">include a table data cell</td>
       </tr>
+      <tr>
+        <td align="center"><code>header</code></td>
+        <td align="center">header</td>
+        <td align="center">help keep heads organized</td>
+      </tr>
+      <tr>
+        <td align="center"><code>div</code></td>
+        <td align="center">division</td>
+        <td align="center">help keep content organized</td>
+      </tr>
+      <tr>
+        <td align="center"><code>blockquote</code></td>
+        <td align="center">blockquote</td>
+        <td align="center">put quotes on a block</td>
+      </tr>
       <!--Visualizing the page with a browser you can see that the spacing between columns isn't ideal... This is why pure html isn't used much!-->
     </table>
 
     <h2>Inline Elements</h2>
 
-    <table>
+    <table style="width: 100%;">
       <tr>
-        <th>_______Tag_______</th>
-        <th>_______Name_______</th>
-        <th>_______Purpose_______</th>
-        <th>________________________Example________________________</th>
-        <th>_______Result_______</th>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+        <th>Example</th>
+        <th>Result</th>
       </tr>
       <tr>
         <td align="center"><code>em</code></td>
@@ -116,7 +135,7 @@
             &lt;img src="https://bit.ly/1MZAFuQ" alt="Micheal Hartl"&gt;
           </code>
         </td>
-        <td><img src="https://bit.ly/1MZAFuQ" alt="Micheal Hartl"></td>
+        <td align="center"><img src="https://bit.ly/1MZAFuQ" alt="Micheal Hartl"></td>
       </tr>
       <tr>
         <td align="center"><code>code</code></td>
@@ -125,7 +144,40 @@
         <td align="center">&lt;code&gt;html is pretty&lt;code&gt;</td>
         <td align="center"><code>html is pretty</code></td>
       </tr>
+      <tr>
+        <td align="center"><code></code></td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
+      </tr>
+      <tr>
+        <td align="center"><code>span</code></td>
+        <td align="center">span</td>
+        <td align="center">equal do div, but inline tag</td>
+        <td align="center">&lt;span&gt;text here&lt;span&gt;</td>
+        <td align="center"><span>text here</span></td>
+      </tr>
+    </table>
 
+    <h2>Attributes</h2>
+
+    <table>
+      <tr>
+        <th>Attribute</th>
+        <th>Purpose</th>
+        <th>Options</th>
+      </tr>
+      <tr>
+        <td align="center"><code>align</code></td>
+        <td align="center">align the text in the block tags</td>
+        <td align="center"><code>center|left|right|justify|char</code></td>
+      </tr>
+      <tr>
+        <td align="center"><code>style</code></td>
+        <td align="center">modify the appearence style</td>
+        <td align="center"><code>color|font-size|font-style|font-weight|margin|float</code></td>
+      </tr>
     </table>
 
   </body>
