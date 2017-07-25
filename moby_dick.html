@@ -1,5 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  .info-box {
+    width: 500px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #eeeeee;
+  }
+  .normal-quote {
+    font-style: italic;
+    font-size: 20px;
+  }
+  .important-text {
+      font-style: normal;
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff0000;
+  }
+  .menu {
+    text-decoration: none;
+    margin: 0 5px;
+    background-color: #dddddd;
+    color: blue;
+    padding: 2px;
+  }
+</style>
   <head>
     <title>Moby Dick</title>
     <meta charset="utf-8">
@@ -9,9 +34,9 @@
     <!--much here to be styled, will do so in last section -->
 
     <div style="text-align: right;">
-      <a style="text-decoration: none; margin: 0 5px; background-color: #dddddd; color: blue" href="index.html">Home</a>
-      <a style="text-decoration: none; margin: 0 5px; background-color: #dddddd; color: green" href="tags.html">HTML Tags</a>
-      <a style="text-decoration: none; margin: 0 5px; background-color: #dddddd; color: red" href="moby_dick.html">Moby Dick</a>
+      <a class="menu" href="index.html">Home</a>
+      <a class="menu" href="tags.html">HTML Tags</a>
+      <a class="menu" href="moby_dick.html">Moby Dick</a>
     </div>
 
     <header style="margin: 30px 0 70px 0;">
@@ -37,7 +62,7 @@
       <img src="images/sperm_whales.jpg" alt="sperm_whales" style="margin: 0 20px 0;">
     </a>
 
-    <div style="width: 500px; margin: 20px auto; padding: 30px; background-color: #eeeeee;">
+    <div class="info-box">
 
       <h3>Moby-Dick: A classic tale of the sea</h3>
 
@@ -52,9 +77,9 @@
         by Herman Melville begins with these immortal words:
       </p>
 
-      <blockquote style="font-style: italic; font-size: 20px;">
+      <blockquote class="normal-quote">
         <p>
-          <span style="font-style: normal; font-size: 24px;  font-weight: bold; color: #ff0000;">Call me Ishmael.</span>
+          <span class="important-text">Call me Ishmael.</span>
           Some years ago–never mind how long
           precisely–having little or no money in my purse, and nothing
           particular to interest me on shore, I thought I would sail about a
